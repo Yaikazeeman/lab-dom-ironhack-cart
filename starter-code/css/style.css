@@ -28,6 +28,7 @@ input {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
+    margin: 5px 10px;
 }
 
 .btn-delete {
@@ -38,4 +39,61 @@ input {
 
 .quantity {
   margin: 0 5px;
+  flex-wrap: nowrap;
 }
+
+.createNew {
+  color: #fff;
+  background-color: #535ec4;
+  border-color: #535ec4;
+  margin: 5px 10px;
+  align-self: flex-end;
+}
+
+
+body {
+ margin: 20px;
+}
+
+body h1 {
+  text-align: center;
+}
+
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#shoppinglist div {
+  margin: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  width: 250px;
+  display: flex;
+
+}
+
+.cost-per-item {
+  width: 100px;
+}
+
+.total-price {
+  width: 100px;
+}
+
+.newProduct {
+  display: flex;
+}
+
+.newProductName {
+  width: 250px;
+}
+
